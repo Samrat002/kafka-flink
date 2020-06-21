@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka-flink.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka-flink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka-flink-build.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka-flink-build.iml" />
     </modules>
   </component>
 </project>
