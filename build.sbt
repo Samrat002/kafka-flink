@@ -47,4 +47,4 @@ artifact in(Compile, assembly) := {
 
 addArtifact(artifact in(Compile, assembly), assembly)
 
-
+assemblyOutputPath in assembly := baseDirectory.value / "distribution" / s"${name.value}-assembly-${version.value}.jar"

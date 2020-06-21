@@ -5,7 +5,7 @@ import matchers._
 
 class ConfigManagerTest extends AnyFlatSpec with should.Matchers {
 
-  val configManagerInstance = new ConfigManager(path = "/Users/recko/big_data/repos/kafka-flink/src/main/resources/base.conf")
+  val configManagerInstance = new ConfigManager(path = "/Users/recko/big_data/repos/kafka-flink/src/resources/base.conf")
   "Application Name " should "Flink-Kakfa" in {
     configManagerInstance.applicationName should be ("Flink-Kakfa")
   }
@@ -14,7 +14,7 @@ class ConfigManagerTest extends AnyFlatSpec with should.Matchers {
   }
 
   "Broker List " should "get the broker list in string" in {
-    configManagerInstance.brokerList should be ("localhost:9092")
+    configManagerInstance.brokers should be ("localhost:9092")
   }
 
 //  "Source Meta data " should "provid the source related details" in {
